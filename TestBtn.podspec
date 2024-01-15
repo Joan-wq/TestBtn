@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TestBtn/Classes/**/*'
   
+  s.swift_versions = '4.0'
+  
   # s.resource_bundles = {
   #   'TestBtn' => ['TestBtn/Assets/*.png']
   # }

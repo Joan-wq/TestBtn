@@ -13,7 +13,6 @@
 		8682782734E0E9BED9F0C7BB57094315 /* Pods-TestBtn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 412BFF225DB650126163B69FA9A291DB /* Pods-TestBtn_Tests-dummy.m */; };
 		A417969449424DAAD3821907CB55DFEE /* Pods-TestBtn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 401B801791951A46922A721A51D09B95 /* Pods-TestBtn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A902D6B90A1F795F7704D9D9CCDA587B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CD6F45D2590C7DD224FA38DFDE208938 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AAD12CFC6B58566C4A785F304A676B /* ReplaceMe.swift */; };
 		D39459B3ADCBBFABFF58E2BBDFA148C3 /* TestBtn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D6CF6C5EC5D57370CDCAE5C1018642 /* TestBtn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4EE8E222B54FB8E00F98BC0 /* PriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8E212B54FB8E00F98BC0 /* PriceButton.swift */; };
 		E4ECE3DECB6A6ABC826272710B3340D0 /* TestBtn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72310779D36B75D06C687D736C77D12C /* TestBtn-dummy.m */; };
@@ -59,7 +58,6 @@
 		7EF12C5581C7D645438B8CCE02FD1001 /* TestBtn.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestBtn.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84BB3A63A78BF5FAC21E1C1A8F4A6E83 /* Pods-TestBtn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBtn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1AAD12CFC6B58566C4A785F304A676B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = TestBtn/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B7239D16C368515844399628DBC576BA /* Pods-TestBtn_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBtn_Tests-Info.plist"; sourceTree = "<group>"; };
 		B85B8E5A9EF807C3632F80F872911F91 /* Pods-TestBtn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBtn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3FB6195ACBC737A52B24E93CFD71971 /* TestBtn.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestBtn.modulemap; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 		596687405477C06F921200CAD385B1E7 /* TestBtn */ = {
 			isa = PBXGroup;
 			children = (
-				A1AAD12CFC6B58566C4A785F304A676B /* ReplaceMe.swift */,
 				D4EE8E212B54FB8E00F98BC0 /* PriceButton.swift */,
 				C85E9C4970807E7FA16B07634380AE69 /* Pod */,
 				06B7C814E34E9A82CE69A583B1B0BB79 /* Support Files */,
@@ -379,7 +376,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4EE8E222B54FB8E00F98BC0 /* PriceButton.swift in Sources */,
-				CD6F45D2590C7DD224FA38DFDE208938 /* ReplaceMe.swift in Sources */,
 				E4ECE3DECB6A6ABC826272710B3340D0 /* TestBtn-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
