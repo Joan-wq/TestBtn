@@ -14,7 +14,7 @@
 		A417969449424DAAD3821907CB55DFEE /* Pods-TestBtn_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 401B801791951A46922A721A51D09B95 /* Pods-TestBtn_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A902D6B90A1F795F7704D9D9CCDA587B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D39459B3ADCBBFABFF58E2BBDFA148C3 /* TestBtn-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D6CF6C5EC5D57370CDCAE5C1018642 /* TestBtn-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4EE8E222B54FB8E00F98BC0 /* PriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8E212B54FB8E00F98BC0 /* PriceButton.swift */; };
+		D4EE8E242B550EED00F98BC0 /* PriceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EE8E232B550EED00F98BC0 /* PriceButton.swift */; };
 		E4ECE3DECB6A6ABC826272710B3340D0 /* TestBtn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72310779D36B75D06C687D736C77D12C /* TestBtn-dummy.m */; };
 		FE170852C5DD9A71AA58F0669680BCA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +42,7 @@
 		401B801791951A46922A721A51D09B95 /* Pods-TestBtn_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBtn_Tests-umbrella.h"; sourceTree = "<group>"; };
 		412BFF225DB650126163B69FA9A291DB /* Pods-TestBtn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBtn_Tests-dummy.m"; sourceTree = "<group>"; };
 		454125FE907E27DB59B2F52195318968 /* Pods-TestBtn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBtn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49D04519AFCFE736C402B48D4D1068B5 /* Pods-TestBtn_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestBtn_Example"; path = Pods_TestBtn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D04519AFCFE736C402B48D4D1068B5 /* Pods_TestBtn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBtn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A889FC52D51BB09E378F11982BDDD8E /* TestBtn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestBtn.release.xcconfig; sourceTree = "<group>"; };
 		4E110071817359D30CB3BCD6A0CBF646 /* TestBtn */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestBtn; path = TestBtn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		531E6A6F352E3DF9EE862090CAB7DD70 /* Pods-TestBtn_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestBtn_Tests.modulemap"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		CD50FEF0079AD5CCDE19415AF63F3217 /* Pods-TestBtn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBtn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF7D76EC9910226C4F0A2E36D278B3C9 /* Pods-TestBtn_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestBtn_Tests"; path = Pods_TestBtn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B8170DE28FBCD625736E56D986F894 /* Pods-TestBtn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBtn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4EE8E212B54FB8E00F98BC0 /* PriceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceButton.swift; sourceTree = "<group>"; };
+		D4EE8E232B550EED00F98BC0 /* PriceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceButton.swift; path = TestBtn/Classes/PriceButton.swift; sourceTree = "<group>"; };
 		E2CEE31964B8261802C369FE0219DBB1 /* Pods-TestBtn_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBtn_Example-umbrella.h"; sourceTree = "<group>"; };
 		EB1D49D8DEF2C50F3395D7D0E64F024B /* Pods-TestBtn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBtn_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EC4113FA597D58CFB6FE34E3D2902A30 /* Pods-TestBtn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBtn_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,7 +143,7 @@
 		596687405477C06F921200CAD385B1E7 /* TestBtn */ = {
 			isa = PBXGroup;
 			children = (
-				D4EE8E212B54FB8E00F98BC0 /* PriceButton.swift */,
+				D4EE8E232B550EED00F98BC0 /* PriceButton.swift */,
 				C85E9C4970807E7FA16B07634380AE69 /* Pod */,
 				06B7C814E34E9A82CE69A583B1B0BB79 /* Support Files */,
 			);
@@ -171,7 +171,7 @@
 		AED12130BCE3CF52D6EF14C6D4730C3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49D04519AFCFE736C402B48D4D1068B5 /* Pods-TestBtn_Example */,
+				49D04519AFCFE736C402B48D4D1068B5 /* Pods_TestBtn_Example.framework */,
 				CF7D76EC9910226C4F0A2E36D278B3C9 /* Pods-TestBtn_Tests */,
 				4E110071817359D30CB3BCD6A0CBF646 /* TestBtn */,
 			);
@@ -269,7 +269,7 @@
 			);
 			name = "Pods-TestBtn_Example";
 			productName = Pods_TestBtn_Example;
-			productReference = 49D04519AFCFE736C402B48D4D1068B5 /* Pods-TestBtn_Example */;
+			productReference = 49D04519AFCFE736C402B48D4D1068B5 /* Pods_TestBtn_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9CB5355DAD3AE787C7A40128135289D3 /* TestBtn */ = {
@@ -317,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5100BC45FD1B723C9E9A128C2B497693 = {
+						LastSwiftMigration = 1510;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -368,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F6D39724B664E5CF6A4781FD5C69BB0 /* Pods-TestBtn_Example-dummy.m in Sources */,
+				D4EE8E242B550EED00F98BC0 /* PriceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +381,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4EE8E222B54FB8E00F98BC0 /* PriceButton.swift in Sources */,
 				E4ECE3DECB6A6ABC826272710B3340D0 /* TestBtn-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +479,7 @@
 			baseConfigurationReference = 5EC42591A7D7C8F8F1BB5DDD56C7004A /* Pods-TestBtn_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,6 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,6 +709,7 @@
 			baseConfigurationReference = 70F5BE54809A09E466B374CE351C1DD2 /* Pods-TestBtn_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -724,6 +732,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

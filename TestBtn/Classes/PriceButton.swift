@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PriceButton: UIButton {
+public class PriceButton: UIButton {
 
   override init(frame: CGRect) {
     super.init(frame: frame)
@@ -20,7 +20,7 @@ class PriceButton: UIButton {
 
 }
 
-extension PriceButton {
+public extension PriceButton {
   func setPriceText(text: String) {
     self.setTitle("$\(text)", for: .normal)
   }
