@@ -1,0 +1,16 @@
+PODS:
+  - TestBtn (0.1.0)
+
+DEPENDENCIES:
+  - TestBtn (from `../`)
+
+EXTERNAL SOURCES:
+  TestBtn:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestBtn: 6416f0ddf1f2288c6bd136cb702353658e1866de
+
+PODFILE CHECKSUM: 95dcb1fc646ee827b8a7dd312e57ebb10b238d6b
+
+COCOAPODS: 1.14.3

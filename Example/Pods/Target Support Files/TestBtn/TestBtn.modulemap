@@ -1,0 +1,6 @@
+framework module TestBtn {
+  umbrella header "TestBtn-umbrella.h"
+
+  export *
+  module * { export * }
+}

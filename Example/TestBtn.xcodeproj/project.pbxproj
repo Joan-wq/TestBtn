@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		05987BCD68EE03512366EF34 /* Pods-TestBtn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBtn_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestBtn_Example/Pods-TestBtn_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		11B711F8BE99E1443AED18C2 /* Pods-TestBtn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBtn_Example.release.xcconfig"; path = "Target Support Files/Pods-TestBtn_Example/Pods-TestBtn_Example.release.xcconfig"; sourceTree = "<group>"; };
-		30D304135FC88FBA2B89E74F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		30D304135FC88FBA2B89E74F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TestBtn_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBtn_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		98C2F3E2A1711934AAAD9378 /* Pods-TestBtn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBtn_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestBtn_Tests/Pods-TestBtn_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		994599D2F5903876C90927B6 /* Pods-TestBtn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBtn_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestBtn_Tests/Pods-TestBtn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD0057584ADEC7488F490383 /* Pods_TestBtn_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBtn_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D05B8D8190BF54C9728FD050 /* TestBtn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestBtn.podspec; path = ../TestBtn.podspec; sourceTree = "<group>"; };
-		D7ACB1F394B2ABD2A8E9AC94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D05B8D8190BF54C9728FD050 /* TestBtn.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestBtn.podspec; path = ../TestBtn.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7ACB1F394B2ABD2A8E9AC94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1B65FF545432150708968EF /* Pods_TestBtn_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBtn_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,7 +86,6 @@
 				994599D2F5903876C90927B6 /* Pods-TestBtn_Tests.debug.xcconfig */,
 				98C2F3E2A1711934AAAD9378 /* Pods-TestBtn_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

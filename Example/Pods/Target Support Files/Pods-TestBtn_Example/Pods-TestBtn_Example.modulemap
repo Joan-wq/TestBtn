@@ -1,0 +1,6 @@
+framework module Pods_TestBtn_Example {
+  umbrella header "Pods-TestBtn_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
